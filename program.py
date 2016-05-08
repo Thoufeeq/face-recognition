@@ -82,11 +82,6 @@ class Application():
 						gtk.STOCK_OPEN, gtk.RESPONSE_OK))
 		dialog.set_default_response(gtk.RESPONSE_OK)
 
-		#filter = gtk.FileFilter()
-		#filter.set_name("All files")
-		#filter.add_pattern("*")
-		#dialog.add_filter(filter)
-
 		filter = gtk.FileFilter()
 		filter.set_name("Images")
 		filter.add_mime_type("image/png")
